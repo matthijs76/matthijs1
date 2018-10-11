@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="portfolio1.css">
+    <link rel="stylesheet" href="breakout.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Oleo+Script+Swash+Caps|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio1</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Matthijs schoneveld</div>
+        <div class="topnav" id="myTopnav">
+            <div id="myLinks">
+                <a href="index.html">home</a>
+                <a href="week1.html" class="active">Week1</a>
+                <a href="week2.html">week2</a>
+                <a href="mymedia.html">media</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>  
+
+    <article class="main">
+
+        <h2>De 1ste week bij Code Gorilla</h2>
+        <p>Deze week hebben we de geleerde sstof van de zelfstudie maand geoefend.
+            HTML, CSS, JavaScript en PHP gecombineerd in een echte website die we onze portfolio
+            gaan noemen. Het was leerzaam om de geleerde stof te gebruiken. Helaas heb ik de
+            vrijdag gemist omdat ik ziek was. Het ging vrijdag over C.V.'s maken, helaas heb ik weinig om in mijn
+            c.v. te zetten aangezien ik een lange tijd geen reguliere baan heb gehad, wel heb ik de les nog
+            kunnen na lezen in de googledrive. Helaas heb ik de c.v. aan niemand kunnen laten lezen voor
+            een second opinion. Hieronder staat een spelletje wat ik met een tutorial heb gebouwd.ik heb zelf
+            de paddlehit counter en total score toegevoegd. De paddle speed moet nog worden aangepast voor grotere
+            schermresolutie dan mijn laptop(1366*768).
+        </p>
+    </article>
+    <section>
+        <div>
+            <div class="startBtn"> Start Game</div> Score: <span class="score">0</span> Lives: <span class="lives">0</span>
+            Hits: <span class="hits">0</span>
+            Total: <span class="total">0</span>
+        </div>
+        <div class="containerGame">
+            <div id="ball"></div>
+            <div class="paddle"></div>
+            <div class="gameover">Click Start Button</div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Disclaimer</a></li>
+        </ul>
+    </footer>
+    <script src="breakout.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
